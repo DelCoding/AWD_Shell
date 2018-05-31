@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbeacf25-9839-4ac1-a2b2-123b767131a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/waf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/waf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -220,35 +222,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="271" column="1" lean-forward="true" selection-start-line="271" selection-start-column="1" selection-end-line="271" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+                <element signature="n#FileWatcher#0;n#!!top" />
+                <element signature="e#353#382#0#PHP" />
+                <element signature="e#411#441#0#PHP" />
+                <element signature="e#480#510#0#PHP" />
+                <element signature="e#553#593#0#PHP" />
+                <element signature="n#__construct#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#692#760#0#PHP" />
                 <element signature="n#readConfig#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#826#1175#0#PHP" />
+                <element signature="e#1187#2233#0#PHP" />
+                <element signature="e#1243#1365#0#PHP" />
+                <element signature="e#1426#1539#0#PHP" />
+                <element signature="e#1552#1674#0#PHP" />
+                <element signature="e#1685#2233#0#PHP" />
+                <element signature="e#1765#1978#0#PHP" />
+                <element signature="e#1875#1978#0#PHP" />
+                <element signature="e#1992#2223#0#PHP" />
+                <element signature="e#2111#2223#0#PHP" />
+                <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#2795#3020#0#PHP" />
+                <element signature="e#2851#3010#0#PHP" />
+                <element signature="e#3120#3597#0#PHP" />
+                <element signature="e#3432#3548#0#PHP" />
+                <element signature="e#3559#3597#0#PHP" />
+                <element signature="e#3947#3979#0#PHP" />
                 <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#4068#5172#0#PHP" />
+                <element signature="e#4210#5162#0#PHP" />
+                <element signature="e#4425#5148#0#PHP" />
+                <element signature="e#4535#5075#0#PHP" />
+                <element signature="e#4733#5053#0#PHP" />
+                <element signature="e#4983#5053#0#PHP" />
+                <element signature="e#5094#5148#0#PHP" />
                 <element signature="e#5216#5254#0#PHP" />
                 <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5310#5470#0#PHP" />
                 <element signature="e#5505#5564#0#PHP" />
                 <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5664#5746#0#PHP" />
                 <element signature="e#5781#5819#0#PHP" />
                 <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5912#6014#0#PHP" />
                 <element signature="e#6147#6179#0#PHP" />
                 <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#6297#6371#0#PHP" />
+                <element signature="e#6505#6670#0#PHP" />
                 <element signature="e#6707#6902#0#PHP" />
                 <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
                 <element signature="e#7133#7262#0#PHP" />
+                <element signature="n#_outputAlert#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#7577#7667#0#PHP" />
                 <element signature="n#_isPathExcluded#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#7750#7930#0#PHP" />
+                <element signature="e#7836#7920#0#PHP" />
+                <element signature="e#7963#8147#0#PHP" />
+                <element signature="e#8001#8145#0#PHP" />
+                <element signature="e#8149#8257#0#PHP" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waf.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/waf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/waf.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="filewatcher.js" pinned="false" current-in-tab="false">
@@ -256,22 +309,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
               <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -346,8 +383,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/waf.js" />
-        <option value="$PROJECT_DIR$/module/waf.php" />
         <option value="$PROJECT_DIR$/module/processes.php" />
         <option value="$PROJECT_DIR$/myshell.php" />
         <option value="$PROJECT_DIR$/module/processes.js" />
@@ -355,6 +390,8 @@
         <option value="$PROJECT_DIR$/module/filewatcher.js" />
         <option value="$PROJECT_DIR$/module/filewatcher.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/module/waf.js" />
+        <option value="$PROJECT_DIR$/module/waf.php" />
       </list>
     </option>
   </component>
@@ -487,7 +524,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527670475185</updated>
       <workItem from="1527670476499" duration="15976000" />
-      <workItem from="1527732083109" duration="15183000" />
+      <workItem from="1527732083109" duration="16984000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1527750105863</created>
@@ -507,7 +544,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31159000" />
+    <option name="totallyTimeSpent" value="32960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -826,26 +863,63 @@
         <state relative-caret-position="5320">
           <caret line="266" column="40" lean-forward="true" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+            <element signature="n#FileWatcher#0;n#!!top" />
+            <element signature="e#353#382#0#PHP" />
+            <element signature="e#411#441#0#PHP" />
+            <element signature="e#480#510#0#PHP" />
+            <element signature="e#553#593#0#PHP" />
+            <element signature="n#__construct#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#692#760#0#PHP" />
             <element signature="n#readConfig#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#826#1175#0#PHP" />
+            <element signature="e#1187#2233#0#PHP" />
+            <element signature="e#1243#1365#0#PHP" />
+            <element signature="e#1426#1539#0#PHP" />
+            <element signature="e#1552#1674#0#PHP" />
+            <element signature="e#1685#2233#0#PHP" />
+            <element signature="e#1765#1978#0#PHP" />
+            <element signature="e#1875#1978#0#PHP" />
+            <element signature="e#1992#2223#0#PHP" />
+            <element signature="e#2111#2223#0#PHP" />
+            <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#2795#3020#0#PHP" />
+            <element signature="e#2851#3010#0#PHP" />
+            <element signature="e#3120#3597#0#PHP" />
+            <element signature="e#3432#3548#0#PHP" />
+            <element signature="e#3559#3597#0#PHP" />
+            <element signature="e#3947#3979#0#PHP" />
             <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#4068#5172#0#PHP" />
+            <element signature="e#4210#5162#0#PHP" />
+            <element signature="e#4425#5148#0#PHP" />
+            <element signature="e#4535#5075#0#PHP" />
+            <element signature="e#4733#5053#0#PHP" />
+            <element signature="e#4983#5053#0#PHP" />
+            <element signature="e#5094#5148#0#PHP" />
             <element signature="e#5216#5254#0#PHP" />
             <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5310#5470#0#PHP" />
             <element signature="e#5505#5564#0#PHP" />
             <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5664#5746#0#PHP" />
             <element signature="e#5781#5819#0#PHP" />
             <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5912#6014#0#PHP" />
             <element signature="e#6147#6179#0#PHP" />
             <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6297#6371#0#PHP" />
+            <element signature="e#6505#6670#0#PHP" />
             <element signature="e#6707#6902#0#PHP" />
             <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
             <element signature="e#7133#7262#0#PHP" />
+            <element signature="n#_outputAlert#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7577#7667#0#PHP" />
             <element signature="n#_isPathExcluded#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7750#7930#0#PHP" />
+            <element signature="e#7836#7920#0#PHP" />
+            <element signature="e#7963#8147#0#PHP" />
+            <element signature="e#8001#8145#0#PHP" />
+            <element signature="e#8149#8257#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -857,7 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/waf.php" />
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/standard/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1306,32 +1379,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/waf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="271" column="1" lean-forward="true" selection-start-line="271" selection-start-column="1" selection-end-line="271" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+            <element signature="n#FileWatcher#0;n#!!top" />
+            <element signature="e#353#382#0#PHP" />
+            <element signature="e#411#441#0#PHP" />
+            <element signature="e#480#510#0#PHP" />
+            <element signature="e#553#593#0#PHP" />
+            <element signature="n#__construct#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#692#760#0#PHP" />
             <element signature="n#readConfig#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#826#1175#0#PHP" />
+            <element signature="e#1187#2233#0#PHP" />
+            <element signature="e#1243#1365#0#PHP" />
+            <element signature="e#1426#1539#0#PHP" />
+            <element signature="e#1552#1674#0#PHP" />
+            <element signature="e#1685#2233#0#PHP" />
+            <element signature="e#1765#1978#0#PHP" />
+            <element signature="e#1875#1978#0#PHP" />
+            <element signature="e#1992#2223#0#PHP" />
+            <element signature="e#2111#2223#0#PHP" />
+            <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#2795#3020#0#PHP" />
+            <element signature="e#2851#3010#0#PHP" />
+            <element signature="e#3120#3597#0#PHP" />
+            <element signature="e#3432#3548#0#PHP" />
+            <element signature="e#3559#3597#0#PHP" />
+            <element signature="e#3947#3979#0#PHP" />
             <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#4068#5172#0#PHP" />
+            <element signature="e#4210#5162#0#PHP" />
+            <element signature="e#4425#5148#0#PHP" />
+            <element signature="e#4535#5075#0#PHP" />
+            <element signature="e#4733#5053#0#PHP" />
+            <element signature="e#4983#5053#0#PHP" />
+            <element signature="e#5094#5148#0#PHP" />
             <element signature="e#5216#5254#0#PHP" />
             <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5310#5470#0#PHP" />
             <element signature="e#5505#5564#0#PHP" />
             <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5664#5746#0#PHP" />
             <element signature="e#5781#5819#0#PHP" />
             <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5912#6014#0#PHP" />
             <element signature="e#6147#6179#0#PHP" />
             <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6297#6371#0#PHP" />
+            <element signature="e#6505#6670#0#PHP" />
             <element signature="e#6707#6902#0#PHP" />
             <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
             <element signature="e#7133#7262#0#PHP" />
+            <element signature="n#_outputAlert#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7577#7667#0#PHP" />
             <element signature="n#_isPathExcluded#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7750#7930#0#PHP" />
+            <element signature="e#7836#7920#0#PHP" />
+            <element signature="e#7963#8147#0#PHP" />
+            <element signature="e#8001#8145#0#PHP" />
+            <element signature="e#8149#8257#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/waf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
