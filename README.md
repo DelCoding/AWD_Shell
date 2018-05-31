@@ -15,6 +15,7 @@ Features :
  * Process list/Task manager
  * Send mail with attachment (you can attach local file on server)
  * String conversion
+ * File Watcher
  * All of that only in 1 file, no installation needed
  * Support PHP > 4.3.3 and PHP 5
 
@@ -23,7 +24,26 @@ Features :
  * As it using zepto.js v1.1.2, you need modern browser to use b374k shell. See browser support on zepto.js website http://zeptojs.com/
  * Responsibility of what you do with this shell
  
+## File Watcher
+你可以通过修改filewatcher.php中的readConfig来自定义监控方式。
 
+includePaths来指定需要监控的文件夹。
+
+excludeFolderList为排除的文件夹。
+
+excludeExtensionList为排除的文件类型。
+```php
+$this->_config = array(
+            'password'              => '',
+            'includePaths'          => array('/var/www/html/'),
+            'excludeFolderList'     => array('/tmp/'),
+            'excludeExtensionList'  => array('pdf'),
+
+            'hashMasterFilename'    => 'FileWatcher.MasterHashes.txt',
+            'overwriteMasterFile'   => true,
+
+        );
+```
 ## Customize :
 After finished doing editing with files, upload index.php, base, module, theme and all files inside it to a server
 
@@ -62,9 +82,4 @@ $ php -f index.php -o myShell.php -p myPassword -s -b -z gzcompress -c 9
 ```
 Don't forget to delete index.php, base, module, theme and all files inside it after you finished. Because it is not protected with password so it can be a security threat to your server
 
-## Documentation :
-Coming soon
 
-## Old Version :
-If your browser is not supported, or any other reason, you can view old version here
-https://code.google.com/p/b374k-shell/

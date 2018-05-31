@@ -22,6 +22,8 @@ var resizeTimer = '';
 var portableWidth = 700;
 var portableMode = null;
 var filewatcherdog = "";
+var dog = true;
+var ouputTime = 10000;
 
 Zepto(function($){
 	if(init_shell){

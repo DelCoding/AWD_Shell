@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbeacf25-9839-4ac1-a2b2-123b767131a9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/base/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/filewatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/module/filewatcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/filewatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/filewatcher.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="info.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/info.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,11 +26,229 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="convert.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/convert.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="mail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/mail.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="976" column="31" selection-start-line="976" selection-start-column="31" selection-end-line="976" selection-end-column="31" />
+              <folding>
+                <element signature="e#452#656#0#PHP" />
+                <element signature="e#519#651#0#PHP" />
+                <element signature="e#1656#2316#0#PHP" />
+                <element signature="e#1698#2314#0#PHP" />
+                <element signature="e#2318#2544#0#PHP" />
+                <element signature="e#2353#2542#0#PHP" />
+                <element signature="e#2546#2640#0#PHP" />
+                <element signature="e#2581#2638#0#PHP" />
+                <element signature="e#2642#2732#0#PHP" />
+                <element signature="e#2676#2730#0#PHP" />
+                <element signature="e#2734#3062#0#PHP" />
+                <element signature="e#2768#3060#0#PHP" />
+                <element signature="e#2829#3042#0#PHP" />
+                <element signature="e#2891#3042#0#PHP" />
+                <element signature="e#3064#3169#0#PHP" />
+                <element signature="e#3107#3167#0#PHP" />
+                <element signature="e#3171#3373#0#PHP" />
+                <element signature="e#3210#3371#0#PHP" />
+                <element signature="e#3242#3352#0#PHP" />
+                <element signature="e#3375#3872#0#PHP" />
+                <element signature="e#3411#3870#0#PHP" />
+                <element signature="e#3464#3867#0#PHP" />
+                <element signature="e#3736#3867#0#PHP" />
+                <element signature="e#3874#4001#0#PHP" />
+                <element signature="e#3907#3999#0#PHP" />
+                <element signature="e#4003#4481#0#PHP" />
+                <element signature="e#4045#4479#0#PHP" />
+                <element signature="e#4142#4461#0#PHP" />
+                <element signature="e#4216#4457#0#PHP" />
+                <element signature="e#4240#4452#0#PHP" />
+                <element signature="e#4483#6045#0#PHP" />
+                <element signature="e#4517#6043#0#PHP" />
+                <element signature="e#4586#6027#0#PHP" />
+                <element signature="e#4772#4915#0#PHP" />
+                <element signature="e#4918#5099#0#PHP" />
+                <element signature="e#5102#5295#0#PHP" />
+                <element signature="e#5298#5793#0#PHP" />
+                <element signature="e#5375#5468#0#PHP" />
+                <element signature="e#5537#5727#0#PHP" />
+                <element signature="e#5565#5641#0#PHP" />
+                <element signature="e#5646#5722#0#PHP" />
+                <element signature="e#5796#6027#0#PHP" />
+                <element signature="e#5887#5984#0#PHP" />
+                <element signature="e#5901#5961#0#PHP" />
+                <element signature="e#6047#6153#0#PHP" />
+                <element signature="e#6083#6151#0#PHP" />
+                <element signature="e#6155#6638#0#PHP" />
+                <element signature="e#6191#6636#0#PHP" />
+                <element signature="e#6328#6571#0#PHP" />
+                <element signature="e#6640#7761#0#PHP" />
+                <element signature="e#6670#7759#0#PHP" />
+                <element signature="e#6770#7738#0#PHP" />
+                <element signature="e#6931#7661#0#PHP" />
+                <element signature="e#7051#7656#0#PHP" />
+                <element signature="e#7170#7567#0#PHP" />
+                <element signature="e#7763#8416#0#PHP" />
+                <element signature="e#7798#8414#0#PHP" />
+                <element signature="e#7892#8395#0#PHP" />
+                <element signature="e#7980#8395#0#PHP" />
+                <element signature="e#8418#9727#0#PHP" />
+                <element signature="e#8455#9725#0#PHP" />
+                <element signature="e#8568#9704#0#PHP" />
+                <element signature="e#8607#9700#0#PHP" />
+                <element signature="e#8631#8899#0#PHP" />
+                <element signature="e#8746#8893#0#PHP" />
+                <element signature="e#8908#9217#0#PHP" />
+                <element signature="e#9221#9700#0#PHP" />
+                <element signature="e#9729#10397#0#PHP" />
+                <element signature="e#9764#10395#0#PHP" />
+                <element signature="e#9887#10023#0#PHP" />
+                <element signature="e#9963#10019#0#PHP" />
+                <element signature="e#10399#11260#0#PHP" />
+                <element signature="e#10439#11258#0#PHP" />
+                <element signature="e#10472#11255#0#PHP" />
+                <element signature="e#11262#11510#0#PHP" />
+                <element signature="e#11299#11508#0#PHP" />
+                <element signature="e#11512#11714#0#PHP" />
+                <element signature="e#11551#11712#0#PHP" />
+                <element signature="e#11611#11709#0#PHP" />
+                <element signature="e#11716#11840#0#PHP" />
+                <element signature="e#11756#11838#0#PHP" />
+                <element signature="e#11842#12134#0#PHP" />
+                <element signature="e#11882#12132#0#PHP" />
+                <element signature="e#11933#12112#0#PHP" />
+                <element signature="e#12136#12568#0#PHP" />
+                <element signature="e#12169#12566#0#PHP" />
+                <element signature="e#12270#12544#0#PHP" />
+                <element signature="e#12298#12490#0#PHP" />
+                <element signature="e#12338#12485#0#PHP" />
+                <element signature="e#12434#12479#0#PHP" />
+                <element signature="e#12570#13077#0#PHP" />
+                <element signature="e#12602#13075#0#PHP" />
+                <element signature="e#12696#13059#0#PHP" />
+                <element signature="e#12820#13037#0#PHP" />
+                <element signature="e#12860#13032#0#PHP" />
+                <element signature="e#12892#13026#0#PHP" />
+                <element signature="e#12969#13026#0#PHP" />
+                <element signature="e#13079#13462#0#PHP" />
+                <element signature="e#13119#13460#0#PHP" />
+                <element signature="e#13227#13440#0#PHP" />
+                <element signature="e#13267#13436#0#PHP" />
+                <element signature="e#13464#13687#0#PHP" />
+                <element signature="e#13500#13685#0#PHP" />
+                <element signature="e#13549#13663#0#PHP" />
+                <element signature="e#13601#13659#0#PHP" />
+                <element signature="e#13689#13871#0#PHP" />
+                <element signature="e#13726#13869#0#PHP" />
+                <element signature="e#13766#13850#0#PHP" />
+                <element signature="e#13873#19416#0#PHP" />
+                <element signature="e#13909#19414#0#PHP" />
+                <element signature="e#13988#19393#0#PHP" />
+                <element signature="e#14054#14146#0#PHP" />
+                <element signature="e#14283#14474#0#PHP" />
+                <element signature="e#14370#14469#0#PHP" />
+                <element signature="e#14478#14690#0#PHP" />
+                <element signature="e#14713#17889#0#PHP" />
+                <element signature="e#14746#15012#0#PHP" />
+                <element signature="e#15084#15306#0#PHP" />
+                <element signature="e#15315#16069#0#PHP" />
+                <element signature="e#15645#15843#0#PHP" />
+                <element signature="e#16073#16354#0#PHP" />
+                <element signature="e#16358#17089#0#PHP" />
+                <element signature="e#17093#17824#0#PHP" />
+                <element signature="e#19418#20152#0#PHP" />
+                <element signature="e#19460#20150#0#PHP" />
+                <element signature="e#19555#20131#0#PHP" />
+                <element signature="e#19564#19728#0#PHP" />
+                <element signature="e#19615#19723#0#PHP" />
+                <element signature="e#19732#19952#0#PHP" />
+                <element signature="e#19881#19952#0#PHP" />
+                <element signature="e#19994#20127#0#PHP" />
+                <element signature="e#20154#20592#0#PHP" />
+                <element signature="e#20191#20590#0#PHP" />
+                <element signature="e#20279#20569#0#PHP" />
+                <element signature="e#20320#20565#0#PHP" />
+                <element signature="e#20594#24076#0#PHP" />
+                <element signature="e#20635#24074#0#PHP" />
+                <element signature="e#20796#21001#0#PHP" />
+                <element signature="e#20826#20997#0#PHP" />
+                <element signature="e#20860#20992#0#PHP" />
+                <element signature="e#21219#21459#0#PHP" />
+                <element signature="e#21244#21321#0#PHP" />
+                <element signature="e#21329#21459#0#PHP" />
+                <element signature="e#21346#21454#0#PHP" />
+                <element signature="e#21742#21823#0#PHP" />
+                <element signature="e#21864#22563#0#PHP" />
+                <element signature="e#21919#22081#0#PHP" />
+                <element signature="e#22020#22081#0#PHP" />
+                <element signature="e#22370#22536#0#PHP" />
+                <element signature="e#22566#23064#0#PHP" />
+                <element signature="e#22871#23037#0#PHP" />
+                <element signature="e#24078#25140#0#PHP" />
+                <element signature="e#24123#25138#0#PHP" />
+                <element signature="e#24657#24780#0#PHP" />
+                <element signature="e#24941#25094#0#PHP" />
+                <element signature="e#25142#30129#0#PHP" />
+                <element signature="e#25396#30108#0#PHP" />
+                <element signature="e#25523#26520#0#PHP" />
+                <element signature="e#25730#26451#0#PHP" />
+                <element signature="e#25921#26409#0#PHP" />
+                <element signature="e#26027#26246#0#PHP" />
+                <element signature="e#26523#27871#0#PHP" />
+                <element signature="e#26639#27802#0#PHP" />
+                <element signature="e#26835#27760#0#PHP" />
+                <element signature="e#27123#27598#0#PHP" />
+                <element signature="e#27221#27425#0#PHP" />
+                <element signature="e#27874#29352#0#PHP" />
+                <element signature="e#27991#29283#0#PHP" />
+                <element signature="e#28051#28317#0#PHP" />
+                <element signature="e#28173#28317#0#PHP" />
+                <element signature="e#28393#29241#0#PHP" />
+                <element signature="e#28595#29079#0#PHP" />
+                <element signature="e#28693#28906#0#PHP" />
+                <element signature="e#29355#30108#0#PHP" />
+                <element signature="e#29478#30039#0#PHP" />
+                <element signature="e#29676#29997#0#PHP" />
+                <element signature="e#30131#30368#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="118" selection-start-line="4" selection-start-column="118" selection-end-line="4" selection-end-column="118" />
+            <state relative-caret-position="396">
+              <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+                <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5216#5254#0#PHP" />
+                <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5505#5564#0#PHP" />
+                <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#5781#5819#0#PHP" />
+                <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#6147#6179#0#PHP" />
+                <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#6707#6902#0#PHP" />
+                <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
+                <element signature="e#7133#7262#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,29 +256,24 @@
       <file leaf-file-name="filewatcher.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/filewatcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="350">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bluebook.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme/bluebook.css">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1499">
-              <caret line="272" column="1" lean-forward="true" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +281,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="270">
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -129,8 +337,9 @@
       <find>showProcesses</find>
       <find>infoRefresh</find>
       <find>bor</find>
-      <find>terminalHistory</find>
       <find>border</find>
+      <find>terminalHistory</find>
+      <find>portableMode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,10 +353,10 @@
         <option value="$PROJECT_DIR$/module/processes.php" />
         <option value="$PROJECT_DIR$/myshell.php" />
         <option value="$PROJECT_DIR$/module/processes.js" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/base/main.js" />
         <option value="$PROJECT_DIR$/module/filewatcher.php" />
         <option value="$PROJECT_DIR$/module/filewatcher.js" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -189,17 +398,7 @@
             <path>
               <item name="b374k" type="b2602c69:ProjectViewProjectNode" />
               <item name="b374k" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b374k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b374k" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b374k" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b374k" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,12 +489,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527670475185</updated>
       <workItem from="1527670476499" duration="15976000" />
-      <workItem from="1527732083109" duration="10037000" />
+      <workItem from="1527732083109" duration="14099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26013000" />
+    <option name="totallyTimeSpent" value="30075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -363,12 +562,8 @@
         <state relative-caret-position="19520">
           <caret line="976" column="31" selection-start-line="976" selection-start-column="31" selection-end-line="976" selection-end-column="31" />
           <folding>
-            <element signature="e#304#1654#0#PHP" />
-            <element signature="e#335#1652#0#PHP" />
-            <element signature="e#354#1649#0#PHP" />
             <element signature="e#452#656#0#PHP" />
             <element signature="e#519#651#0#PHP" />
-            <element signature="e#661#1645#0#PHP" />
             <element signature="e#1656#2316#0#PHP" />
             <element signature="e#1698#2314#0#PHP" />
             <element signature="e#2318#2544#0#PHP" />
@@ -586,11 +781,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5320">
           <caret line="266" column="40" lean-forward="true" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+            <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5216#5254#0#PHP" />
+            <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5505#5564#0#PHP" />
+            <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5781#5819#0#PHP" />
+            <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6147#6179#0#PHP" />
+            <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6707#6902#0#PHP" />
+            <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7133#7262#0#PHP" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/module/network.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -735,17 +947,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/processes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/convert.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/jsPacker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/bluebook.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1499">
+          <caret line="272" column="1" lean-forward="true" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#tfoot#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="714" lean-forward="true" selection-start-line="714" selection-end-line="714" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/convert.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/mail.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1680">
+            <caret line="84" selection-start-line="84" selection-end-line="84" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
+        <state relative-caret-position="560">
           <caret line="976" column="31" selection-start-line="976" selection-start-column="31" selection-end-line="976" selection-end-column="31" />
           <folding>
-            <element signature="e#304#1654#0#PHP" />
-            <element signature="e#335#1652#0#PHP" />
-            <element signature="e#354#1649#0#PHP" />
             <element signature="e#452#656#0#PHP" />
             <element signature="e#519#651#0#PHP" />
-            <element signature="e#661#1645#0#PHP" />
             <element signature="e#1656#2316#0#PHP" />
             <element signature="e#1698#2314#0#PHP" />
             <element signature="e#2318#2544#0#PHP" />
@@ -925,117 +1243,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/processes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/convert.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/jsPacker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1583" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="714" lean-forward="true" selection-start-line="714" selection-end-line="714" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="270">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/bluebook.css">
+    <entry file="file://$PROJECT_DIR$/module/filewatcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1499">
-          <caret line="272" column="1" lean-forward="true" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
+        <state relative-caret-position="350">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="118" selection-start-line="4" selection-start-column="118" selection-end-line="4" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/filewatcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="396">
+          <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
+            <element signature="n#_getCurrentHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5216#5254#0#PHP" />
+            <element signature="n#_checkPassword#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5505#5564#0#PHP" />
+            <element signature="n#_createAllHashesOfFilelist#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#5781#5819#0#PHP" />
+            <element signature="n#_saveMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6147#6179#0#PHP" />
+            <element signature="n#_loadMasterHashes#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#6707#6902#0#PHP" />
+            <element signature="n#_calcOverallHash#0;n#FileWatcher#0;n#!!top" />
+            <element signature="e#7133#7262#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

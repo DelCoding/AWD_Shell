@@ -2,7 +2,14 @@
 $GLOBALS['module']['filewatcher']['id'] = "filewatcher";
 $GLOBALS['module']['filewatcher']['title'] = "FileWatcher";
 $GLOBALS['module']['filewatcher']['js_ontabselected'] = "watcher_init();";
-$GLOBALS['module']['filewatcher']['content'] = "<div class='border watcherResult' id=\"msg\" style=\"overFlow-y:scroll; height: 500px\"></div>";
+$GLOBALS['module']['filewatcher']['content'] = "<div class='border watcherResult' id=\"msg\" style=\"overFlow-y:scroll; height: 400px\"></div>
+<span id=\"clearDog\" style=\"width:120px;\" class=\"button\" onclick=\"clearDog();\">Clear Dog</span>
+<span id=\"stopDog\" style=\"width:120px;\" class=\"button\" onclick=\"stopDog();\">Stop Dog</span>
+<span id=\"startDog\" style=\"width:120px;\" class=\"button\" onclick=\"startDog();\">Start Dog</span>
+
+<input type='text' id='timer' style='width:34%;outline:none;background:#ffffff;padding:8px;border:1px solid #cccccc;border-radius:8px;color:#000000;'>
+<span id=\"setTimer\" style=\"width:120px;\" class=\"button\" onclick=\"setTimer();\">Set Timer</span>
+";
 
 class FileWatcher
 {
