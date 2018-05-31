@@ -23,7 +23,7 @@ Features :
 
 ## Requirements :
  * PHP version > 4.3.3 and PHP 5
- * As it using zepto.js v1.1.2, you need modern browser to use b374k shell. See browser support on zepto.js website http://zeptojs.com/
+ * As it using zepto.js v1.1.2, you need modern browser to use. See browser support on zepto.js website http://zeptojs.com/
  * Responsibility of what you do with this shell
  
 ## File Watcher
