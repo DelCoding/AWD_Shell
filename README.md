@@ -1,5 +1,7 @@
-# b374k shell 3.2
-This PHP Shell is a useful tool for system or web administrator to do remote management without using cpanel, connecting using ssh, ftp etc. All actions take place within a web browser
+# awd shell
+在此项目上继续开发：https://github.com/b374k/b374k。
+
+改造原项目以适应CTF-AWD，为此新增文件监控、WAF。
 
 Features : 
  * File manager (view, edit, rename, delete, upload, download, archiver, etc)
@@ -21,8 +23,6 @@ Features :
  * As it using zepto.js v1.1.2, you need modern browser to use b374k shell. See browser support on zepto.js website http://zeptojs.com/
  * Responsibility of what you do with this shell
  
-## Installation :
-Download b374k.php (default password : b374k), edit and change password and upload b374k.php to your server, password is in sha1(md5()) format. Or create your own b374k.php, explained below
 
 ## Customize :
 After finished doing editing with files, upload index.php, base, module, theme and all files inside it to a server
@@ -50,7 +50,15 @@ options :
 ```
 example :
 ```
-$ php -f index.php -- -o myShell.php -p myPassword -s -b -z gzcompress -c 9
+$ php index.php -l
+b374k shell packer 0.4.2
+
+available modules : convert,database,filewatcher,info,mail,network,processes
+```
+filewatcher为文件监控模块
+
+```
+$ php -f index.php -o myShell.php -p myPassword -s -b -z gzcompress -c 9
 ```
 Don't forget to delete index.php, base, module, theme and all files inside it after you finished. Because it is not protected with password so it can be a security threat to your server
 
