@@ -83,9 +83,6 @@ class FileWatcher
         return $this;
     }
 
-    /**
-     * @return FileWatcher
-     */
     public function checkNow()
     {
 
