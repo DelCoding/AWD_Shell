@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbeacf25-9839-4ac1-a2b2-123b767131a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/module/waf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/waf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbeacf25-9839-4ac1-a2b2-123b767131a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,13 +218,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="filewatcher.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="87">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
-                <element signature="n#FileWatcher#0;n#!!top" />
                 <element signature="e#353#382#0#PHP" />
                 <element signature="e#411#441#0#PHP" />
                 <element signature="e#480#510#0#PHP" />
@@ -246,7 +241,6 @@
                 <element signature="e#1875#1978#0#PHP" />
                 <element signature="e#1992#2223#0#PHP" />
                 <element signature="e#2111#2223#0#PHP" />
-                <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
                 <element signature="e#2795#3020#0#PHP" />
                 <element signature="e#2851#3010#0#PHP" />
                 <element signature="e#3120#3597#0#PHP" />
@@ -288,20 +282,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waf.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/waf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/waf.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="filewatcher.js" pinned="false" current-in-tab="false">
@@ -388,10 +368,11 @@
         <option value="$PROJECT_DIR$/module/processes.js" />
         <option value="$PROJECT_DIR$/base/main.js" />
         <option value="$PROJECT_DIR$/module/filewatcher.js" />
-        <option value="$PROJECT_DIR$/module/filewatcher.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/module/waf.js" />
         <option value="$PROJECT_DIR$/module/waf.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/module/filewatcher.php" />
       </list>
     </option>
   </component>
@@ -524,7 +505,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527670475185</updated>
       <workItem from="1527670476499" duration="15976000" />
-      <workItem from="1527732083109" duration="16984000" />
+      <workItem from="1527732083109" duration="18874000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1527750105863</created>
@@ -540,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527750295358</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add color">
+      <created>1527758258032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527758258032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32960000" />
+    <option name="totallyTimeSpent" value="34850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -564,7 +552,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -616,11 +604,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="add color" />
+    <option name="LAST_COMMIT_MESSAGE" value="add color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -863,7 +852,6 @@
         <state relative-caret-position="5320">
           <caret line="266" column="40" lean-forward="true" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
           <folding>
-            <element signature="n#FileWatcher#0;n#!!top" />
             <element signature="e#353#382#0#PHP" />
             <element signature="e#411#441#0#PHP" />
             <element signature="e#480#510#0#PHP" />
@@ -881,7 +869,6 @@
             <element signature="e#1875#1978#0#PHP" />
             <element signature="e#1992#2223#0#PHP" />
             <element signature="e#2111#2223#0#PHP" />
-            <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
             <element signature="e#2795#3020#0#PHP" />
             <element signature="e#2851#3010#0#PHP" />
             <element signature="e#3120#3597#0#PHP" />
@@ -1382,12 +1369,25 @@
     <entry file="file://$PROJECT_DIR$/module/waf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/waf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/filewatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="87">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
           <folding>
-            <element signature="n#FileWatcher#0;n#!!top" />
             <element signature="e#353#382#0#PHP" />
             <element signature="e#411#441#0#PHP" />
             <element signature="e#480#510#0#PHP" />
@@ -1405,7 +1405,6 @@
             <element signature="e#1875#1978#0#PHP" />
             <element signature="e#1992#2223#0#PHP" />
             <element signature="e#2111#2223#0#PHP" />
-            <element signature="n#checkNow#0;n#FileWatcher#0;n#!!top" />
             <element signature="e#2795#3020#0#PHP" />
             <element signature="e#2851#3010#0#PHP" />
             <element signature="e#3120#3597#0#PHP" />
@@ -1445,13 +1444,6 @@
             <element signature="e#8001#8145#0#PHP" />
             <element signature="e#8149#8257#0#PHP" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/waf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
