@@ -116,11 +116,17 @@ class FileWatcher
             $a = "a";
         }
         $result = "New files: <br>";
+        $result .= "<font color=\"red\">";
         $result .= implode("<br>", array_keys($newFiles));
+        $result .= "</font>";
         $result .= "<br>Changed files: <br>";
+        $result .= "<font color=\"blue\">";
         $result .= implode("<br>", array_keys($changedFiles));
+        $result .= "</font>";
         $result .= "<br>Deleted files: <br>";
+        $result .= "<font color=\"yellow\">";
         $result .= implode("<br>", array_keys($deletedFiles));
+        $result .= "</font>";
         return $result;
     }
 
