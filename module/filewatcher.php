@@ -124,7 +124,7 @@ class FileWatcher
         $result .= implode("<br>", array_keys($changedFiles));
         $result .= "</font>";
         $result .= "<br>Deleted files: <br>";
-        $result .= "<font color=\"yellow\">";
+        $result .= "<font color=\"green\">";
         $result .= implode("<br>", array_keys($deletedFiles));
         $result .= "</font>";
         return $result;
