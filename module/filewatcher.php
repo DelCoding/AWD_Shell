@@ -110,7 +110,6 @@ class FileWatcher
         $overallHash = $this->_calcOverallHash($newFiles, $deletedFiles, $changedFiles);
 
         if (count($newFiles) > 0 || count($deletedFiles) > 0 || count($changedFiles) > 0 || (!empty($this->_providedOverallHash) && $overallHash != $this->_providedOverallHash)) {
-            //$this->_outputAlert($newFiles, $deletedFiles, $changedFiles);
 
             // save new master hash file if needed
             if ($this->_config['overwriteMasterFile']) {

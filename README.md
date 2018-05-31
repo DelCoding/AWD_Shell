@@ -1,6 +1,8 @@
 # awd shell
 在此项目上继续开发：https://github.com/b374k/b374k。
 
+AWD中有时候一个www-data的shell会比ctfuser更有用。
+
 改造原项目以适应CTF-AWD，为此新增文件监控、WAF。
 
 Features : 
